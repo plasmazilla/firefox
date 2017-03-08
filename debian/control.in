@@ -60,6 +60,7 @@ Build-Depends: autotools-dev,
 %if USE_SYSTEM_LIBEVENT
                libevent-dev (>= 1.4.1),
 %endif
+               libjsoncpp-dev,
                mesa-common-dev,
                libpulse-dev,
                yasm (>= 1.1),
