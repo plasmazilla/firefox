@@ -1,3 +1,19 @@
+firefox (52.0.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Fix for mfsa2017-08, also known as CVE-2017-5428.
+
+  * debian/browser.lintian-overrides.in: Add a lintian override for NSPR and
+    NSS.
+  * debian/control*: Build depend on libjsoncpp-dev.
+
+  * config/system-headers,
+    toolkit/crashreporter/jsoncpp/src/lib_json/moz.build,
+    toolkit/crashreporter/minidump-analyzer/moz.build: Build against system
+    libjsoncpp.
+
+ -- Mike Hommey <glandium@debian.org>  Sat, 18 Mar 2017 08:49:59 +0900
+
 firefox (52.0-1) unstable; urgency=medium
 
   * New upstream release.
