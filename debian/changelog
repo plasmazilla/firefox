@@ -1,3 +1,14 @@
+firefox-esr (52.0.2esr-1) experimental; urgency=medium
+
+  * New upstream release.
+  * debian/browser.mozconfig.in, debian/mls.key: Enable geolocation using
+    Mozilla's Location Service. Closes: #726230.
+
+  * browser/app/profile/firefox.js: Use the Mozilla Location Service when
+    the Google Key is not there.
+
+ -- Mike Hommey <glandium@debian.org>  Sun, 02 Apr 2017 06:34:38 +0900
+
 firefox-esr (52.0.1esr-1) experimental; urgency=medium
 
   * New upstream release.
